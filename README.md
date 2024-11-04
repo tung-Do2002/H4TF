@@ -33,11 +33,16 @@ Selected **Price** as the primary feature for prediction based on its high corre
 
 ## Modeling
 ### ARIMA Model
+![image](https://github.com/user-attachments/assets/6031e263-e440-4452-b925-c6b516b9145a)
+
 1. **Stationarity Check**: Utilized the Dickey-Fuller test and differencing to achieve stationarity.
 2. **ACF & PACF Analysis**: Guided ARIMA parameter selection through autocorrelation insights.
 3. **Model Selection**: Identified an optimal ARIMA(2, 1, 0) model with the lowest AIC of -6116.61.
 
 ### LSTM Model
+
+![image](https://github.com/user-attachments/assets/d5b666bb-9ec2-4f00-aaba-5e9cdac8afad)
+
 1. **Data Normalization**: Normalized price data to enhance training performance.
 2. **Sequence Creation**: Structured time series sequences for both training and testing.
 3. **Architecture**: Built a deep learning model with two LSTM layers and Dense layers, trained for 1 epoch.
